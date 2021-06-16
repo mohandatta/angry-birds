@@ -1,0 +1,35 @@
+h1 {
+    color: brown;
+    margin-left: 30px;
+}
+
+
+.header{
+    background-color: rgb(180, 167, 224);
+    display: flex;
+    justify-content:space-between;
+   
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: column;
+}
+
+p,h2{
+    text-align: center;
+    
+}
+.menu{
+    justify-content: center;
+    margin-top: 20px;
+}
